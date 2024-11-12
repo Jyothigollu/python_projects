@@ -20,8 +20,8 @@ while True:
     else:
         print("Invalid,Try again")
 
-
-max_score=50
+print("Enter Target Score:",end=" ")
+max_score=int(input())
 players_score=[0 for _ in range(players)]
 #print(players_score)
 
